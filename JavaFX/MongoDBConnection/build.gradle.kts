@@ -35,13 +35,19 @@ javafx {
     modules = listOf("javafx.controls", "javafx.fxml")
 }
 
+//Mongo DB dependencies
+dependencies {
+    implementation(platform("org.mongodb:mongodb-driver-bom:5.6.1"))
+    implementation("org.mongodb:bson:5.2.0")
+    implementation("org.mongodb:mongodb-driver-sync:5.2.0")
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation("org.slf4j:slf4j-api:2.0.17")
+}
+
+
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
-
-    // mongodb dependencies
-    implementation(platform("org.mongodb:mongodb-driver-bom:5.6.1"))
-    implementation("org.mongodb:mongodb-driver-sync")
 }
 
 tasks.withType<Test> {
