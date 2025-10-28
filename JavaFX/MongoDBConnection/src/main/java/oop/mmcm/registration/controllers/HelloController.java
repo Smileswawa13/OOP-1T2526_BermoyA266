@@ -16,12 +16,12 @@ public class HelloController {
         MongoDatabase db = DatabaseHelper.getInstance().getDatabase();
 
         if (db != null) {
-            // connection successful and database retrieved
-            message.setText("Connected to database: "
-                    + db.getName() + " with collection of "
-                    + db.getCollection("movies").getNamespace());
-
-
+            // connection successful and database retrieved\
+            for (String name: db.listCollectionNames()) {
+                message.setText("Connected to database: "
+                        + db.getName() + " with collection of "
+                        + name);
+            }
         }
     }
 }

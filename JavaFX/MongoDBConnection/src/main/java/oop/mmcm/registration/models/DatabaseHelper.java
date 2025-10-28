@@ -8,11 +8,14 @@ public class DatabaseHelper {
     protected final String dbUri = "mongodb+srv://njbermoy_db_user:vhjSWDXGMS6dJ8dy@bcbfixhub-" +
             "cluster.ezoyndh.mongodb.net/?appName=BCBFixhub-Cluster"; // Connected to my project cluster
 
-    // ensure only one instance of DatabaseHelper exists (singleton pattern)
+    // Open the connection beforehand
     private static final DatabaseHelper instance = new DatabaseHelper();
+    MongoClient mongoClient = MongoClients.create(dbUri);
 
     private MongoDatabase database;
 
+
+    // ensure only one instance of DatabaseHelper exists (singleton pattern)
     private DatabaseHelper() {
         // prevent instantiation from outside
     }
@@ -24,9 +27,8 @@ public class DatabaseHelper {
     public MongoDatabase getDatabase() {
         if (this.database == null) {
             // no database connection yet, create one
-            try (MongoClient mongoClient = MongoClients.create(dbUri)) {
-                this.database = mongoClient.getDatabase("sample_mflix");
-            }
+                this.database = mongoClient.getDatabase("User-Details");
+
         }
 
         return this.database;
