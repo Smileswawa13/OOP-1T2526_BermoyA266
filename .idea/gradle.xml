@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/BidirectionalBinding" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/BidirectionalBinding" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/BindingsEventHandling" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/BindingsEventHandling" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/Demo" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/Demo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/FXML" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/FXML" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/LayoutDemo" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/LayoutDemo" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/MongoDBConnection" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/MongoDBConnection" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/JavaFX/Scenes" />
+        <option name="gradleJvm" value="23" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/JavaFX/Scenes" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/list" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/list" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/map" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/map" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/queue" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/queue" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/set" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/set" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
